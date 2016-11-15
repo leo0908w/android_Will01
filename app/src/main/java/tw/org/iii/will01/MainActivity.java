@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public void finish() {
+    public void finish(){
         super.finish();
     }
 
