@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.HashSet;
 
@@ -76,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void finish(){
+//        Toast.makeText(this, "在按一次", Toast.LENGTH_LONG).show();
         super.finish();
     }
 
